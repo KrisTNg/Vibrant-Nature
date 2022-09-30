@@ -1,0 +1,105 @@
+/* make 2 button float to the right*/ 
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;}
+
+li {float: right}
+
+li a {display: block;
+      background-color:#333;
+      color: white;
+      text-align: left;
+      padding: 10px 15px ;
+      text-decoration: none}
+
+
+
+/* hover light up */
+li a:hover {background-color: #0099CC;
+             /*width: 60px;*/
+             text-align: left;}  
+.active {
+    background-color: #4CAF50;
+    
+} 
+
+
+/* website-background */
+body {
+    background-image: url("Water-modified.jpg");
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size : 100% 100%;
+    
+  }
+
+
+/* website-header */
+#header {
+    text-align: center;
+    color: white;
+  }
+
+#description {
+    font-size: 20px
+}
+
+.center {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      
+/* button rain */
+.rainbutton {
+    padding: 100px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 50px;
+    border-radius: 50%;
+    /*border-style: none;*/
+    background-color: transparent;
+    background-image: url("raintrans.png"); 
+    background-position:center;
+    position: fixed;
+    display: inline-block;
+   
+  }
+
+
+.rainbutton:hover {
+    
+
+    box-shadow: inset 5em 5em yellow;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 0.5;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
